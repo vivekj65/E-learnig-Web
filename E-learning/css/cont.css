@@ -1,0 +1,84 @@
+body{
+    width: 80%;
+    height: 50vh;
+    /* background: url(/E-learning/Assets/images/girl.png); */
+}
+.cont{
+    background: #fff;
+}
+
+img{
+    height: 35vh;
+    float: left;
+    margin-left: 125px;
+    border: 1px solid #166fe5;
+}
+
+.cont{
+    padding: 40px 15px; 
+    /* display: grid; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    margin-bottom: 30px ;
+}
+
+.head{
+    font-size: xxx-large;
+    margin-bottom: 10px;
+}
+
+form{
+    display: grid;
+    width: 500px;
+    /* background-color: #191919; */
+}
+
+.name{
+    background: #191919;
+    color: white;
+    height: 50px;margin: 10px;
+    border: #191919;
+    padding: 10px;
+}
+
+.mail{
+background: #191919;
+color: white;
+height: 50px;margin: 10px;
+border: #191919;
+padding: 10px;
+}
+
+.subject{
+background: #191919;
+color: white;
+height: 50px;margin: 10px;
+border: #191919;
+padding: 10px;
+}
+
+.textarea{
+background: #191919;
+color: white;
+height: 50px;margin: 10px;
+border: #191919;
+height: 200px;
+padding: 10px;
+}
+
+.form form button{
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 15px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 550;
+    height: 35px;
+    background-color: #166fe5;
+    border-radius: 10px;
+}

@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Fragile;
+    src: url(./Fragile.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000315;
+    /* background-image: linear-gradient(to top,rgba(0,0,0,0.8)0,rgba(0,0,0,0)65%,rgba(0,0,0,0.8)60%); */
+    /* background: url(/E-learning/Assets/images/happy-asian-girl-learning-online-home-1-1200x675.jpg); */
+    /* background: url(/E-learning/Assets/images/image.png); */
+    background: url(/E-learning/Assets/images/girl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.main-container{
+    height: 90vh;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background: rgba(255,255,255,.1);
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 1rem; 
+    position: sticky;
+    top: 1rem;
+    position: relative;
+}
+
+
+/* nav{
+    height: 6rem;
+    background: rgba(255,255,255,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    margin: 1em;
+    border-radius: 1rem;
+} */
+
+.logo{
+    color: #1e1e1e;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+}
+
+nav ul li a{
+    color: #1e1e1e;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li a :hover{
+    color: #1877f2;
+}
+
+/* nav ul li a:hover{
+    transform: translateY(32px);
+} */
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 60px;
+}
+
+nav ul li:hover{
+    transform: translateY(-9px); 
+    transition: 0.4s;  
+    opacity: 0.8;
+}
+
+.join-btn{
+    width: 100px;
+    height: 35px;
+    /* margin: 10px; */
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: #1877f2;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.join-btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.information{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-head{
+    color: #fff;
+    font-size: 35px;
+}
+
+.info-head span{
+    color: #1877f2;
+}
+
+.info-para{
+    margin-top: 10px;
+    width: 900px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.information-btn{
+    margin-top: 25px;
+}
+
+.info-btn{
+    width: 100px;
+    height: 35px;
+    background-color: #1877f2;
+}
+
+.info-btn1{
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    width: 130px;
+    font-weight: 550;
+}
+
+.info-btn2{
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    width: 130px;
+    font-weight: 550;
+}
+
+.info-btn1:hover,.info-btn2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.courses{
+    margin-top: 85px;
+}
+
+.course-head{
+    font-size: 25px;
+}
+
+.c-lang{
+    height: 320px;
+    width: 300px;
+    margin: 25px;
+    background-color:#fff ;
+    padding: 5px;
+    border-radius: 10px;
+    /* box-shadow: 10px #1e1e1e; */
+    /* box-shadow: 5px 5px 5px #1e1e1e; */
+    border-radius: 1px #1e1e1e;
+}
+
+.c-lang-info{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.c-lang-info button{
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.c-lang-info button:hover{
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+.c-lang .img img{
+    height: 230px;
+}
+
+.lang-courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}   
+
+footer {
+    background-color: #fff;
+    padding: 30px 30px;
+    padding-left: 70px;
+    margin-top: 30px;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .footer-heading {
+    font-family: "Urbanist";
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 10px;
+  }
+  .sec-head {
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 900;
+    color: #3f3f3f;
+    margin-bottom: 10px;
+  }
+  
+  .main-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+  }
+  .footer-links {
+    display: grid;
+  }
+  
+  .footer-links a {
+    font-family: "Urbanist";
+    font-weight: 500;
+    color: #3f3f3f;
+    padding: 5px 0px;
+  }
